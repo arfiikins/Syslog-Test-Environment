@@ -1,0 +1,13 @@
+region_aws        = "us-west-1"    # Select your region
+project_name      = "<enter-name>-rsyslogTestEnv" # Change to your project name
+vpc_cidr_block    = "10.100.0.0/16"
+shift             = "<enter-shift>"                  # Change your shifting schedule
+azone             = ["us-west-1a", "us-west-1c"] # Change this depends on your region
+pubsubnet         = "10.100.0.0/24"
+anycidr           = "0.0.0.0/0"
+mypublicip        = "<enter-publicip>"         # Change your IP address
+rsyslogregioncidr = ["<input-cidr-region>"]   # Change the preferred region see ports and urls docu
+ubuntu22-04_ami   = "ami-0819a8650d771b8be" # Ubuntu 22.04
+kp_name           = "<enter-kp>"       # change your KP here
+rsyslog_instance_type = "t2.small"
+volume_type       = "gp3"
